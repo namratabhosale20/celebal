@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            height: 65px;
+
+
+        }
+
+        .navbar nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+
+        }
+
+        .navbar nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 2em;
+        }
+
+        nav ul li a,
+        span {
+            text-transform: capitalize;
+        }
+
+        nav ul li select {
+            border: none;
+        }
+
+        .btn button {
+            color: navy;
+            padding: 12px 20px;
+            border-radius: 12px;
+            outline: none;
+            border: none;
+            background-color: rgb(41, 97, 193);
+            text-transform: capitalize;
+            color: white;
+        }
+
+        .btn {
+            margin-right: 50px;
+        }
+
+        .btn a {
+            text-transform: capitalize;
+            color: rgb(41, 97, 193);
+            margin-right: 2em;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .navbar nav h1 {
+            text-transform: capitalize;
+            margin-left: 70px;
+            margin-left: 100px;
+        }
+
+        .hero-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 100px;
+
+        }
+
+        .img {
+            margin-top: 100px;
+            margin-right: 70px;
+        }
+
+        img {
+            height: 400px;
+        }
+
+        .info .title h1 {
+            text-transform: capitalize;
+            font-size: 50px;
+            margin-bottom: 20px;
+
+        }
+
+        .info h3 {
+            color: orange;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .btn2 {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 9px 30px;
+            width: 400px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px 0px #8888;
+        }
+
+        .btn2 .info2 h4 {
+            color: gray;
+            text-transform: capitalize;
+        }
+
+        .btn2 .info2 h3 {
+            margin-top: 10px;
+            text-transform: capitalize;
+            color: black;
+            font-size: 20px;
+        }
+
+        .btn2 button {
+            padding: 15px 30px;
+            border: none;
+            outline: none;
+            background-color: rgb(41, 97, 193);
+            border-radius: 5px;
+            color: white;
+            text-transform: capitalize;
+
+        }
+
+        .home a {
+            color: black;
+            font-size: 18px;
+            font-weight: 100;
+
+        }
+
+        span {
+            color: gray;
+            font-size: 18px;
+
+        }
+
+        .product {
+            text-align: center;
+            height: 600px;
+            margin-top: 50px;
+        }
+
+        .product .heading h2 {
+            color: orange;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            font-size: 18px;
+        }
+
+        .product .heading h1 {
+            text-transform: capitalize;
+            font-size: 40px;
+        }
+
+        .card {
+            height: 200px;
+            width: 300px;
+            padding: 30px;
+            background-color: rgba(220, 220, 220, 0.179);
+            border-radius: 5px;
+            border: 1px solid rgba(220, 220, 220, 0.559);
+        }
+
+        .cards {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+
+        }
+
+        .cards:hover {
+            cursor: pointer;
+        }
+
+        .card img {
+            height: 200px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin-top: 40px;
+            text-transform: capitalize;
+        }
+
+        .btn button:hover {
+            background-color: rgb(109, 109, 233);
+            transition: all 0.5s linear;
+            cursor: pointer;
+        }
+
+        .btn2 button:hover {
+            background-color: transparent;
+            border: 1px solid navy;
+            cursor: pointer;
+            color: black;
+            transition: all 0.5s linear;
+        }
+
+        .navbar nav ul li span:hover {
+            color: red;
+            cursor: pointer;
+            transition: all 0.5s linear;
+        }
+
+        .navbar nav ul li a:hover {
+            cursor: pointer;
+            color: red;
+            transition: all 0.5s linear;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <h1>langkut</h1>
+                <ul>
+                    <li class="home"><a href="">home</a></li>
+                    <li><a href=""></a><span>service</span><select name="" id="">
+                            <option value=""></option>
+                        </select></li>
+                    <li><a href=""></a><span>features</span><select name="" id="">
+                            <option value=""></option>
+                        </select></li>
+                </ul>
+                <div class="btn">
+                    <a href="">register</a>
+                    <button class="b2">login now</button>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-section">
+            <div class="info">
+                <h3>financial platform no.1</h3>
+                <div class="title">
+                    <h1>best & trusted <br> digital bank</h1>
+                </div>
+
+                <p>By using this langkut can make it easier for you to control or <br> in money traactions.</p>
+                <div class="btn2">
+                    <div class="info2">
+                        <h4>type your username</h4>
+                        <h3>christiana malot</h3>
+                    </div>
+                    <button>get started</button>
+                </div>
+
+            </div>
+            <div class="img">
+                <img src="http://square-bits.com/wp-content/uploads/2018/09/mobile-app-1.png" alt="">
+            </div>
+        </div>
+        <div class="product">
+            <div class="heading">
+                <h2>our product</h2>
+                <h1>various kinds of <br> finance products</h1>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://cdn.idropnews.com/wp-content/uploads/2020/07/08095243/shutterstock_703948603.jpg"
+                        alt="">
+                    <h3>make transaction easier</h3>
+                </div>
+                <div class="card">
+                    <img src="https://www.rismedia.com/wp-content/uploads/2019/10/real_estate_transaction_1071990840.jpg"
+                        alt="">
+                    <h3>various helpful features</h3>
+                </div>
+                <div class="card">
+                    <img src="https://www.bleepstatic.com/images/stock-photos/cryptocurrency/bitcoin/pile-of-bitcoins.jpg"
+                        alt="">
+                    <h3>coin investment platform</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
