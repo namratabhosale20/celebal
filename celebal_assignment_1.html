@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            height: 441px;
+            width: 350px;
+            position: relative;
+            border-radius: 15px;
+            box-shadow: 15px 10px 10px #8888;
+
+        }
+
+        .img img {
+            height: 150px;
+            width: 100%;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px
+        }
+
+        .pic img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: absolute;
+            top: 100px;
+            left: 130px;
+            border: 1px solid white;
+            background-color: white;
+
+        }
+
+        .info {
+            text-align: center;
+            padding: 30px 20px 5px 20px;
+
+        }
+
+        .info h1 {
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        .btn button {
+            width: 100%;
+            position: absolute;
+            padding: 12px;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+            background-color: rgb(91, 185, 91);
+            /* border-radius: 5px; */
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            color: white;
+
+        }
+        .btn button:hover {
+           background-color:rgb(112, 190, 112) ;
+           cursor: pointer;
+        }
+
+        .f {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .f h3 {
+            text-transform: capitalize;
+            font-size: 15px;
+            margin-right: 20px;
+            color: rgb(95, 92, 92);
+        }
+
+        .f i {
+            margin-right: 6px;
+            color: black;
+        }
+
+        .f2 {
+            height: 9%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            background-color: rgba(192, 192, 192, 0.214)
+        }
+
+        span {
+            color: rgb(95, 92, 92);
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="img">
+            <img src="https://free-images.com/md/e617/trees_park_season_nature.jpg" alt="">
+        </div>
+        <div class="pic">
+            <img src="https://freepngimg.com/thumb/man/22654-6-man.png" alt="">
+        </div>
+        <div class="info">
+            <h1>ann lovefully</h1>
+            <p>designer,cat lover,bookworm apple pie fanatic <br> and nature enthusiast:)</p>
+            <div class="f">
+                <h3><i class="fa fa-map-marker" aria-hidden="true"></i>hungary</h3>
+                <h3><i class="fa fa-envelope" aria-hidden="true"></i>send e-mail</h3>
+            </div>
+        </div>
+        <div class="f2">
+            <div class="r">
+                <h4>8,400<br><span>followers</span></h4>
+            </div>
+            <div class="l">
+                <h4>3,400<br><span>following</span></h4>
+            </div>
+        </div>
+        <div class="btn">
+            <button>follow</button>
+        </div>
+    </div>
+</body>
+
+</html>
