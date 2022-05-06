@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .card{
+            height: 370px;
+            width: 300px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px 0px #8888;
+            position: relative;
+        }
+        .img img{
+          
+            width: 100%;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            
+        }
+        .info{
+            text-align: center;
+           padding: 10px 30px 30px 30px;
+           
+           
+        }
+        .info h1{
+            text-transform: capitalize;
+            font-size: 20px;
+           margin-top: 20px;
+            font-weight: bold;
+        }
+        .info button{
+            padding: 6px 30px;
+            border: none;
+            outline: none;
+            background-color: rgb(37, 37, 144);
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 3px;
+            transition: all 0.3s  ease-in;
+        }
+        .info button:hover{
+            background-color: rgb(85, 85, 149) ;
+            cursor: pointer;
+        }
+        .pic img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            position: absolute;
+            left: 110px;
+            top: 140px;
+            background-color: white;
+          
+         
+        }
+        .flex-card{
+            height: 30%;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding:  20px 50px 20px 10px;
+            box-shadow: 0px 4px 8px 0px #8888;
+            margin-left: 50px;
+            border-radius: 3px;
+        }
+        .pic2 img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 1px solid rgba(229, 220, 220, 0.611);
+        }
+        .info2{
+            margin-left: 20px;
+        }
+        .info2 h1{
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+        .info2 button{
+           padding: 6px 20px;
+           border: none;
+           outline: none;
+           background-color: transparent;
+           border: 1px solid black;
+           text-transform: uppercase;
+           letter-spacing: 1px;
+           border-radius: 2px;
+           transition: all 0.6s ease-in;
+
+        }
+        .info2 button:hover{
+             background-color: rgb(58, 58, 145);
+             color: white;
+             cursor: pointer;
+        }
+        .flex2-card{
+         height: 50%;
+         width: 400px;
+          display: flex;
+          /* justify-content: space-between; */
+          align-items: center;
+          flex-direction: row;
+          padding: 30px;
+          position: relative;
+          box-shadow: 0px 4px 8px 0px #8888;
+          margin-left: 30px;
+          margin-top: 200px;
+          border-radius: 5px;
+        
+        }
+        .pic3 img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 1px solid gainsboro;
+            margin-right: 30px;
+        }
+        .info3 h1{
+            text-transform: capitalize;
+            font-size: 20px;
+   
+        }
+        .btn button{
+            padding: 9px 20px;
+             border: none;
+             outline: none;
+             background-color: rgb(71, 71, 184);
+             color: white;
+             text-transform: uppercase;
+             border-radius: 3px;
+             position: absolute;
+             top: 20px;
+             left: 300px;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+            <img src="https://i.pinimg.com/originals/76/2a/70/762a70becaf073c80ca3566407a4cd02.jpg" alt="">
+         
+        </div>
+        <div class="pic">
+            <img src="https://freepngimg.com/thumb/man/22654-6-man.png" alt="">
+        </div>
+        <div class="info">
+            <h1>hulda terry</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>follow</button>
+        </div>
+    </div>
+    <div class="flex-card">
+        <div class="pic2">
+            <img src="https://freepngimg.com/thumb/man/22654-6-man.png" alt="">
+        </div>
+        <div class="info2">
+            <h1>hulda terry</h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br>
+                 adipisicing elit.</p>
+            <button>contact</button>
+        </div>
+    </div>
+    <div class="flex2-card">
+        <div class="pic3">
+            <img src="http://2.bp.blogspot.com/-mhyE427gwfk/TwdiQdysEYI/AAAAAAAAADA/4gUxnmqRcKc/s1600/woman_employee.jpg" alt="">
+        </div>
+        <div class="info3">
+             <h1>amando graham</h1>
+        </div>
+        <div class="btn">
+            <button>view profile</button>
+        </div>
+       
+    </div>
+</body>
+</html>
